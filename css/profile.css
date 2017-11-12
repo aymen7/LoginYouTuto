@@ -1,0 +1,17 @@
+#table-wrapper{
+    margin: 200px ;
+    padding-left: 218px;
+}
+#table-wrapper table{
+    width: 55%;
+    border-radius: 5px !important;
+}
+#table-wrapper table thead{
+    background-color: #2856B6;
+    color: white;
+}
+
+#dec-row{
+    margin-top: 10px;
+    text-align: right;
+}

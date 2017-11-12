@@ -1,0 +1,89 @@
+
+/*-----------------end of the login form ------------*/
+
+@media (min-width:320px)  {
+    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+    body{
+        background: url(../images/patrick-tomasso-89367.jpg) no-repeat center center fixed ;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    .shadow{
+        -moz-box-shadow:    3px 3px 3px 1px rgba(0,0,0,.3);
+        -webkit-box-shadow: 3px 3px 3px 1px rgba(0,0,0,.3);
+        box-shadow:         3px 3px 3px 1px rgba(0,0,0,.3);
+    }
+}
+@media (min-width:480px)  { /* smartphones, Android phones, landscape iPhone */ }
+@media (min-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ }
+@media (min-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) {
+    /* hi-res laptops and desktops */
+    #login-form-wrapper{
+        width: 720px;
+        height: 494px;
+        background-image: url(../images/logIn.png);
+        margin-top: 100px;
+        position: relative;
+        font-family: 'Noto Serif', serif;
+    }
+    #login-frame{
+        width:340px;
+        height: 454px;
+        background-image: url(../images/logInFrame.png);
+        margin-left: 50%;
+        margin-top: 20px;
+        padding-top: 90px;
+        padding-left: 60px;
+    }
+    #login-frame h1{
+        padding-left: 10%;
+    }
+    #login-form .form-control{
+        width: 80%;
+        margin-top: 10px;
+    }
+    #login-form .btn-block{
+        position: relative;
+        left: -16px;
+        width: 90%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+    }
+    #login-form .btn{
+        background-color: #2856B6 !important;
+        color: white;
+    }
+    #login-form .btn:hover{
+        background-color: #2856D8 !important;
+    }
+    .icon-span{
+        position: absolute;
+        left: 86%;
+    }
+    #user-span{
+        top:38.5%;
+    }
+    #pass-span{
+        top: 50.5%;
+    }
+    .icon-span i {
+        color: #2856B6;
+    }
+    #login-error-msg{
+        color: red;
+        opacity: .7;
+        font-size: 11px;
+        margin-top: 20px;
+    }
+    /*-----------------end of the login form ------------*/
+
+
+
+
+
+}
